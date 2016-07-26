@@ -5,7 +5,7 @@ height = raw_input()
 print "How heavy are you?",
 weight = raw_input()
 
-print "You're %r years old, %r tall, and weigh %r" % (age, height, weight)
+print "You're %s years old, %s tall, and weigh %s" % (age, height, weight)
 
 
 print "\n enter a number",
