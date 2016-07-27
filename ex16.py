@@ -21,13 +21,9 @@ line2 = raw_input("line 2: ")
 line3 = raw_input("line 3: ")
 
 print "Writing..."
+ln = "\n"
 
-target.write(line1)
-target.write("\n")
-target.write(line2)
-target.write("\n")
-target.write(line3)
-target.write("\n")
+target.write(line1 + ln + line2 + ln + line3 + ln)
 
 print "Closing/saving..."
 target.close()
